@@ -1,0 +1,132 @@
+@import url(https://fonts.google.com/specimen/Bree+Serif?preview.text=TripU&preview.size=30&stroke=Serif);
+@import url(https://fonts.google.com/specimen/Open+Sans?preview.text=TripU&query=open+san&stroke=Sans+Serif);
+header {
+    text-align: center;
+    background-color: #007BFF;
+    padding: 0.625rem; 
+    position: relative;
+}
+.meu-botao {
+    display: inline-block;
+    padding: 0.625rem 1.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #002cbd;
+    border: none;
+    border-radius: 0.9375rem;
+    font-family:'Slab',serif;
+}
+
+.meu-botao:hover {background-color: #00b7ff}
+
+h1 {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.engrenagem {
+    position: absolute;
+    top: -0.12rem; 
+    left: 0.1rem;
+    width: 3rem;
+}
+
+.perfil {
+    position: absolute;
+    top: -0.12rem;
+    right: 0.5rem;
+    width: 3rem;
+}
+
+.destinos-em-alta {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #000;
+    background-color: #007BFF;
+    border-radius: 3.125rem;
+    padding: 0.625rem 1.25rem;
+    margin: 5.3125rem auto 0.625rem auto;
+    width: fit-content;
+}
+
+.destinos-recomendados {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #000;
+    background-color: #007BFF;
+    border-radius: 3.125rem;
+    padding: 0.625rem 1.25rem;
+    margin: 6.25rem auto 0 auto;
+    width: fit-content;
+}
+
+.lupa {
+    position: absolute;
+    bottom: 0.625rem;
+    left: 0.625rem;
+    width: 10%;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+img {
+    position: relative;
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.125rem 0.9375rem;
+    background-color: transparent;  
+}
+footer{
+    background-color: #307CCF;
+    color: white;
+    text-align: center;
+    padding: 0.625rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.coluna-botao {
+    display: flex;
+    flex-direction: column;
+    width: 16.875rem;
+    align-items: center;
+}
+
+.botao {
+    margin-top: 1.25rem;
+    padding: 1.875rem;
+    text-align: center;
+    background-color: #00b7ff; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box; 
+    font-size: 1.25rem;
+    text-decoration: none;
+    border-radius: 1rem;
+    font-family: 'Humanista',sans-serif;
+}
+
+.botao:hover {
+    background-color: #00b7ff;
+}
+main {
+    margin: 0;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

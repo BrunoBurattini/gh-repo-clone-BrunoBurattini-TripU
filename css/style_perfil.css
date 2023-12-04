@@ -1,0 +1,127 @@
+@import url(https://fonts.google.com/specimen/Bree+Serif?preview.text=TripU&preview.size=30&stroke=Serif);
+@import url(https://fonts.google.com/specimen/Open+Sans?preview.text=TripU&query=open+san&stroke=Sans+Serif);
+/*HEADER*/
+header {
+    text-align: center;
+    background-color: #007BFF;
+    padding: 0.625rem;
+    position: relative;
+}
+img {
+    position: relative;
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.125rem 0.9375rem;
+    background-color: transparent;  
+}
+h1 {
+    color: #fff;
+    font-size: 1.5rem;
+}
+.engrenagem {
+    position: absolute;
+    top: -0.12rem;
+    left: 0.1rem;
+    width: 3rem;
+}
+.perfil {
+    position: absolute;
+    top: -0.23rem;
+    right: 0.5rem; 
+    width: 3rem; 
+}
+.meu-botao {
+    display: inline-block;
+    padding: 0.625rem 1.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #004FA3;
+    border: none;
+    border-radius: 0.9375rem;
+    font-family:'Slab',serif;
+}
+
+.meu-botao:hover {background-color: #D9E9FA}
+
+/*MAIN*/
+.coluna-botao {
+    display: flex;
+    flex-direction: column;
+    width: 13.75rem;
+    align-items: center;
+    margin-top: 3rem;
+  }
+main {
+    margin: 0 1rem;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.botao {
+    margin-top: 0.1875rem;
+    padding: 0.3125rem;
+    text-align: center;
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    box-sizing: border-box; 
+    font-size: 0.625rem;
+    text-decoration: none;
+    border-radius: 1rem;
+    font-family: 'Humanista',sans-serif;
+  }
+
+#botao_login{
+    margin-top: 0.1875rem;
+    padding: 0.3125rem;
+    text-align: center;
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    box-sizing: border-box; 
+    font-size: 0.625rem;
+    text-decoration: none;
+    border-radius: 1rem;
+    position: relative;
+    font-family: 'Humanista',sans-serif;
+}
+p{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Humanista',sans-serif;
+}
+/*FOOTER*/
+footer {
+    background-color: #307CCF;
+    color: white;
+    text-align: center;
+    padding: 0.625rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.lupa {
+    position: absolute;
+    bottom: 0.625rem;
+    left: 0.625rem;
+    width: 10%;
+}
+#ul_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}

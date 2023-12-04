@@ -1,0 +1,143 @@
+@import url(https://fonts.google.com/specimen/Bree+Serif?preview.text=TripU&preview.size=30&stroke=Serif);
+@import url(https://fonts.google.com/specimen/Open+Sans?preview.text=TripU&query=open+san&stroke=Sans+Serif);
+/*HEADER*/
+header {
+    text-align: center;
+    background-color: #007bff;
+    padding: 0.625rem;
+    position: relative;
+}
+img {
+    position: relative;
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.125rem 0.9375rem;
+    background-color: transparent;  
+}
+h1 {
+    color: #fff;
+    font-size: 1.5rem;
+}
+.engrenagem {
+    position: absolute;
+    top: -0.12rem;
+    left: 0.1rem;
+    width: 3rem;
+}
+.perfil {
+    position: absolute;
+    top: -0.23rem;
+    right: 0.5rem;
+    width: 3rem;
+}
+.meu-botao {
+    display: inline-block;
+    padding: 0.625rem 1.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #004FA3;
+    border: none;
+    border-radius: 0.9375rem;
+    font-family:'Slab',serif;
+}
+
+.meu-botao:hover {background-color: #D9E9FA}
+
+/*MAIN*/
+.buscar-destinos {
+    width: 9.375rem;
+    margin: 0 0 0.625rem 0;
+    word-break: break-all;
+    text-align: center;
+}
+main {
+    margin: 0;
+    height: 69vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Lupa1 {
+    width: 3.75rem;
+    height: auto;
+    top: -2rem;
+    max-width: 100%;
+    max-height: 100vh;
+    object-fit: contain;
+}
+p{
+    margin-bottom: 0.5rem;
+    font-family: 'Humanista',sans-serif;
+}
+select{
+    margin-bottom: 0.625rem;
+    width: 9.375rem;
+    height: 1.5625rem;
+    font-family: 'Humanista',sans-serif;
+}
+
+.botao {
+    margin-top: 0.1875rem;
+    padding: 0.3125rem;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    box-sizing: border-box;
+    font-size: 0.625rem;
+    text-decoration: none;
+    border-radius: 1rem;
+  }
+.botao_trocar:hover {background-color: #D9E9FA}
+#botao_trocar{
+    margin-top: 0.875rem;
+    padding: 0.3125rem;
+    text-align: center;
+    background-color: #307CCF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 4.375rem;
+    height: 1.875rem;
+    box-sizing: border-box;
+    font-size: 0.625rem;
+    text-decoration: none;
+    border-radius: 1rem;
+    margin-bottom: -2.5rem;
+    font-family: 'Humanista',sans-serif;
+}
+
+/*FOOTER*/
+footer{
+    background-color:#307CCF;
+    color: white;
+    text-align: center;
+    padding: 0.625rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+.lupa {
+    position: absolute;
+    bottom: 0.625rem;
+    left: 0.625rem;
+    width: 10%;
+}
+#ul_footer {
+    display:flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+}
